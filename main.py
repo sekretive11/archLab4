@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello, Serverless! (здесь должна быть ракета, но слетела кодировка)\n", 200, {'Content-Type': 'text/plain'}
+    return "Hello, Serverless! (raketi net, kodirovka sletela)\n", 200, {'Content-Type': 'text/plain'}
 
 
 if __name__ == '__main__':
